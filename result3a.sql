@@ -1,0 +1,1 @@
+select name, year, rating from Movie where rating >= 8.7 and rating <= 9.0;
