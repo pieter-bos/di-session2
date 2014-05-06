@@ -1,4 +1,4 @@
-select runtime.mid from movie, runtime where
+select runtime.mid, min(movie.name) from movie, runtime where
     movie.mid = runtime.mid
 group by runtime.mid
     having count(*) >= 2
