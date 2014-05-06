@@ -38,4 +38,4 @@ create table f2 (
     y varchar(10),
     violation boolean,
     motivation varchar(200)
-)
+);
