@@ -1,3 +1,10 @@
+drop table if exists r;
+drop table if exists f;
+drop table if exists r1;
+drop table if exists f1;
+drop table if exists r2;
+drop table if exists f2;
+
 create table r (
     a int,
     b int,
