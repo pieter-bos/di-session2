@@ -1,11 +1,3 @@
-drop table if exists problem1;
-
-create table problem1 (
-    task char(1) primary key,
-    result boolean,
-    motivation varchar(200)
-);
-
 insert into problem1 (task, result, motivation) values
     ('A', false, 'Meerdere voertuigen kunnen dezelfde capaciteit hebben'),
     ('B', true, 'Een voertuig heeft precies één capaciteit (3)'),
